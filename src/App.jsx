@@ -531,14 +531,10 @@ const Card = ({ emoji, isFlipped, isMatched, onClick }) => (
             User ID: {userId || 'Authenticating...'}
         </div>
     </div>
-</div> {/* <--- This closes the element started on line 532 */}
-); // <--- Closing parenthesis for the return statement (Line 534)
-}; // <--- Closing brace for the App function (Line 535)
-// The rest of the file (likely exports)
-  
-      
-    
-
+</div> 
+); // 
+}; // 
+// 
 export default App;
 
         
