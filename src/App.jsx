@@ -531,9 +531,8 @@ const Card = ({ emoji, isFlipped, isMatched, onClick }) => (
         </div>
     </div>
 </div>
-  };
+);
 };
-
 export default function App() {
     // ...
 }
