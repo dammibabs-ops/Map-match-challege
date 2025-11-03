@@ -525,14 +525,14 @@ const Card = ({ emoji, isFlipped, isMatched, onClick }) => (
     width: '70px', 
     height: '70px', 
     fontSize: '14px',}}
-      > //
+      > 
                       <div className="pt-4 mt-6 border-t border-gray-700 text-sm text-gray-500 text-center">
                     User ID: {userId || 'Authenticating...'}
                 </div>
             </div> 
         </div> 
-    ); //
-}; //
+    ); 
+}; 
 
 export default App;
 
