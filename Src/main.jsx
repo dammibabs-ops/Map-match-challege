@@ -1,11 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
 
-// Renders the main App component into the HTML root element
-ReactDOM.createRoot(document.getElementById('root')).render(
+// Get the root element from the index.html
+const rootElement = document.getElementById('root');
+
+// Create the root container and render the App component
+ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-)
+);
+
 
