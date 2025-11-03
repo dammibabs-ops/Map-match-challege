@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-
-// Firebase imports (assumed available in the environment)
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
 import { getFirestore, doc, setDoc, setLogLevel } from 'firebase/firest'
@@ -12,18 +10,10 @@ const YOUR_FIREBASE_CONFIG_OBJECT = { apiKey: "AIzaSyDqZCESEU_0Llx5mKHUmrNYY-IGz
   messagingSenderId: "882039456283",
   appId: "1:882039456283:web:cbeb3d4dbcfca80db92ebe",
   measurementId: "G-CNZTGCQ12E" };
-
-
-// --- Configuration and Data (Rest of file unchanged) ---
-
 const EMOJIS = ['⚽', '🥅', '🏆', '👟', '🏟️', '🏅', '🥇', '🧤', '⚽', '🥅', '🏆', '👟', '🏟️', '🏅', '🥇', '🧤'];
 const INITIAL_LIVES = 10;
 const MOVES_PER_LIFE_LOSS = 4;
 const GAME_TIME = 90; // 90 seconds
-
-
-// --- Utility Functions ---
-
 function shuffleArray(array) {
   const newArray = [...array];
   for (let i = newArray.length - 1; i > 0; i--) {
