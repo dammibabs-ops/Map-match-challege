@@ -521,5 +521,10 @@ const Card = ({ emoji, isFlipped, isMatched, onClick }) => (
       ${isMatched ? 'matched opacity-50 cursor-default bg-emerald-900' : ''}
       flex items-center justify-center rounded-xl cursor-pointer select-none border-b-4 border-indigo-600
     `}
-    style={{ 
-        width: '70px', height: '70px', fontSize:
+    style={{
+    width: '70px', 
+    height: '70px', 
+    fontSize: '14px'
+}} 
+      
+        
