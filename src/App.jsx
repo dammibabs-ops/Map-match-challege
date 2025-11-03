@@ -523,8 +523,7 @@ const Card = ({ emoji, isFlipped, isMatched, onClick }) => (
     `}
     style={{
     width: '70px', 
-    height: '70px', 
-    // ... code immediately preceding this block (likely a style object)
+    height: '70px',
         fontSize: '14px'
     }}>  
         <div className="pt-4 mt-6 border-t border-gray-700 text-sm text-gray-500 text-center">
@@ -532,9 +531,8 @@ const Card = ({ emoji, isFlipped, isMatched, onClick }) => (
         </div>
     </div>
 </div> 
-); // 
-}; // 
-// 
+); 
+}; 
 export default App;
 
         
