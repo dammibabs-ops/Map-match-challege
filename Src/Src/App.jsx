@@ -3,13 +3,8 @@ import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 // Firebase imports (assumed available in the environment)
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
-import { getFirestore, doc, setDoc, setLogLevel } from 'firebase/firestore';
+import { getFirestore, doc, setDoc, setLogLevel } from 'firebase/firest
 
-// =========================================================================
-// !!! CRITICAL STEP 1: REPLACE THIS ENTIRE LINE WITH YOUR OWN FIREBASE CONFIG OBJECT !!!
-// The configuration object must contain all keys (apiKey, authDomain, projectId, etc.)
-// You can get this from your Firebase console -> Project Settings.
-// Example: { apiKey: "AIzaSy...", authDomain: "myapp.firebaseapp.com", ... }
 const YOUR_FIREBASE_CONFIG_OBJECT = { apiKey: "AIzaSyDqZCESEU_0Llx5mKHUmrNYY-IGzVKyA5Y",
   authDomain: "memory-map-game-af983.firebaseapp.com",
   projectId: "memory-map-game-af983",
@@ -17,7 +12,6 @@ const YOUR_FIREBASE_CONFIG_OBJECT = { apiKey: "AIzaSyDqZCESEU_0Llx5mKHUmrNYY-IGz
   messagingSenderId: "882039456283",
   appId: "1:882039456283:web:cbeb3d4dbcfca80db92ebe",
   measurementId: "G-CNZTGCQ12E" };
-// =========================================================================
 
 
 // --- Configuration and Data (Rest of file unchanged) ---
