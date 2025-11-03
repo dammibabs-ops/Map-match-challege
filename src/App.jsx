@@ -532,7 +532,7 @@ const Card = ({ emoji, isFlipped, isMatched, onClick }) => (
     </div>
 </div> 
 ); 
-}; }
+}; 
 export default App;
 
         
