@@ -3,7 +3,7 @@ import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 // Firebase imports (assumed available in the environment)
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
-import { getFirestore, doc, setDoc, setLogLevel } from 'firebase/firest
+import { getFirestore, doc, setDoc, setLogLevel } from 'firebase/firest'
 
 const YOUR_FIREBASE_CONFIG_OBJECT = { apiKey: "AIzaSyDqZCESEU_0Llx5mKHUmrNYY-IGzVKyA5Y",
   authDomain: "memory-map-game-af983.firebaseapp.com",
